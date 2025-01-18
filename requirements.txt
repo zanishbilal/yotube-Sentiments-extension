@@ -1,4 +1,10 @@
 pandas
 numpy
 scikit-learn
+mlflow
+dagshub
+nltk
+seaborn
+xgboost
+lightgbm
 -e .
