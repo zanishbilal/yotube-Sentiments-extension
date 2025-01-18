@@ -1,0 +1,33 @@
+mean_fit_time,std_fit_time,mean_score_time,std_score_time,param_clf,param_preprocessor__encode,params,split0_test_score,split1_test_score,split2_test_score,mean_test_score,std_test_score,rank_test_score
+54.91250157356262,2.250680323817411,1.1013978322347004,0.048836427945315515,LogisticRegression,CountVectorizer,"{'clf': LogisticRegression(max_iter=1000), 'preprocessor__encode': CountVectorizer(decode_error='ignore')}",0.8812674014588463,0.8838418703115651,0.8847853099544387,0.8832981939082835,0.0014867432124063115,1
+48.31880863507589,2.3406820924157854,1.146959622701009,0.08372140911862655,LogisticRegression,TfidfVectorizer,"{'clf': LogisticRegression(max_iter=1000), 'preprocessor__encode': TfidfVectorizer(decode_error='ignore')}",0.8654593985135415,0.8662386672189241,0.8670210318008191,0.8662396991777616,0.000637534537463231,2
+4843.94528277715,121.98927403114153,317.39657131830853,3.0856610538124034,SVC,CountVectorizer,"{'clf': SVC(), 'preprocessor__encode': CountVectorizer(decode_error='ignore')}",0.8491911916979222,0.8504763219660362,0.8499470753371071,0.8498715296670217,0.000527364714220389,5
+4130.172784487407,143.61522420141205,350.2030258178711,10.588474209120934,SVC,TfidfVectorizer,"{'clf': SVC(), 'preprocessor__encode': TfidfVectorizer(decode_error='ignore')}",0.84785660047401,0.8489806249712366,0.8494868608771687,0.8487746954408051,0.0006812940990764613,6
+2328.7713962395987,9.996950517653048,6.588431755701701,0.06473407953364088,RandomForestClassifier,CountVectorizer,"{'clf': RandomForestClassifier(), 'preprocessor__encode': CountVectorizer(decode_error='ignore')}",0.8279757932764215,0.8302729071747434,0.8347830088821391,0.8310105697777681,0.0028275614538098713,7
+2036.5211040973663,9.809272557517284,6.350958347320557,0.3340503216646322,RandomForestClassifier,TfidfVectorizer,"{'clf': RandomForestClassifier(), 'preprocessor__encode': TfidfVectorizer(decode_error='ignore')}",0.8143537587151108,0.8129688434810621,0.814947765658797,0.8140901226183233,0.0008291205139703772,10
+374.05366977055866,8.116520750444986,1.613418738047282,0.22856420230676852,GradientBoostingClassifier,CountVectorizer,"{'clf': GradientBoostingClassifier(), 'preprocessor__encode': CountVectorizer(decode_error='ignore')}",0.7012586575853103,0.7046803810575728,0.7081319895071103,0.7046903427166645,0.002806034848060852,12
+819.6294300556183,3.4443391764882265,0.9565752347310384,0.0402001946729227,GradientBoostingClassifier,TfidfVectorizer,"{'clf': GradientBoostingClassifier(), 'preprocessor__encode': TfidfVectorizer(decode_error='ignore')}",0.6996249338456937,0.7054857563624649,0.7094896221639284,0.7048667707906957,0.004050956780607354,11
+57.36622961362203,2.4513501510509275,2.1355565388997397,0.2851150890135716,XGBClassifier,CountVectorizer,"{'clf': XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None, num_class=3,
+              num_parallel_tree=None, ...), 'preprocessor__encode': CountVectorizer(decode_error='ignore')}",0.8132262592328402,0.8131069078190437,0.8175479773574486,0.8146270481364443,0.0020659835148716015,8
+204.83823402722678,6.431396288863278,2.211565097173055,0.24694218397726037,XGBClassifier,TfidfVectorizer,"{'clf': XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None, num_class=3,
+              num_parallel_tree=None, ...), 'preprocessor__encode': TfidfVectorizer(decode_error='ignore')}",0.8135253917485447,0.8128307791430807,0.8166505591605688,0.8143355766840648,0.0016613206730004934,9
+11.937491655349731,0.8199106801124306,1.8123246828715007,0.368100274011725,LGBMClassifier,CountVectorizer,"{'clf': LGBMClassifier(), 'preprocessor__encode': CountVectorizer(decode_error='ignore')}",0.8562783313007662,0.859335450319849,0.8594505039348337,0.8583547618518163,0.0014690092372255184,3
+34.88891998926798,0.569821996080907,1.8010334173838298,0.4952562656401679,LGBMClassifier,TfidfVectorizer,"{'clf': LGBMClassifier(), 'preprocessor__encode': TfidfVectorizer(decode_error='ignore')}",0.8568305759451437,0.8604169543007041,0.8575406139260896,0.8582627147239791,0.0015506126959028306,4
